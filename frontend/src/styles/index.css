@@ -1,0 +1,32 @@
+.border {
+  border: solid #dee2e6;
+}
+.rounded-none {
+  border-radius: 0px !important;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+.rounded-8 {
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 30px;
+}
+.text-white {
+  color: #ffffff;
+}
+.text-black {
+  color: #0000;
+}
+a {
+  text-decoration: none;
+}
+.btn-shadow {
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+.text-dark {
+  color: rgb(2,0,36) !important;
+}
