@@ -5,7 +5,6 @@ import EventCard from '../components/EventCard';
 import { fetchAllEvents } from '../features/event/eventSlice';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
-import lodash from 'lodash';
 function Dashboard() {
   const dispatch = useDispatch();
   const { events, loading, error } = useSelector((state) => state.event);

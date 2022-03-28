@@ -4,19 +4,10 @@ A prototype api for Tech event UK
 
 ## Features
 
-- Register: `POST /api/v1/auth/register`
+- Singup: `POST /api/v1/auth/register`
 - Login: `POST /api/v1/auth/login`
-- Create category: `POST /api/v1/categories`
-- Get all category: `GET /api/v1/categories`
 
-- Create an event: `POST /api/v1/events`
-- Get all events: `GET /api/v1/events`
-- Get an event: `GET /api/v1/events/:id`
-- Edit an event: `PATCH /api/v1/events/:id`
-- Delete single event : `DELETE /api/v1/events/:id`
-- Save/remove a saved event: `PATCH /api/v1/save-event`
-- View all saved events: `GET /api/v1/my-event`
-- View all recommended events: `GET /api/v1/events/recommendations`
+- Fetch all events: `GET /api/v1/events`
 
 
 ## Getting Started
@@ -43,4 +34,4 @@ A prototype api for Tech event UK
 
 ## Author
 
-- [Odumah Solomon](https://github.com/slimsolz)
+- [Nelson Nnaji](https://github.com/udochukwu)
