@@ -27,14 +27,6 @@ function Dashboard() {
   useEffect(() => {
     fetchData();
   }, [fetchData]);
-  const handleSearchChange = (event) => {
-    setSearch(event.target.value)
-    const debouncedFunc = lodash.debounce(
-      () => setSearch(event.target.value),
-      100
-    );
-    debouncedFunc();
-  };
   return (
     <Layout>
       <Banner>
@@ -49,8 +41,7 @@ function Dashboard() {
                 className='form-control input'
                 placeholder='Search by city or title'
                 value={search}
-                // onChange={(e) => lodash.debounce(()=> setSearch(e.target.value),1000)}
-                onChange={handleSearchChange}
+                onChange={(e) => setSearch(e.target.value)}
               />
               <select
                 className='form-select input'

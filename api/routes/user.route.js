@@ -10,8 +10,8 @@ const userRouter = express.Router();
 userRouter.post(
   "/auth/signup",
   registerValidator,
-  UserController.createUserHandler
+  UserController.createUser
 );
-userRouter.post("/auth/login", loginValidator, UserController.loginHandler);
+userRouter.post("/auth/login", loginValidator, UserController.login);
 
 export default userRouter;
